@@ -36,7 +36,20 @@ value =0;
 };
 return value;
 }
-
+switch(q)	
+{	
+case 1:	
+value = "UREA";	
+break;	
+case 2:	
+value = "AMMONIUM NITRATE";	
+break;	
+case 3:	
+value = "CALCIUM NITRATE";	
+break;	
+default:	
+value = 0;	
+};
 char * Fname(int q)
 {
 char * value;
